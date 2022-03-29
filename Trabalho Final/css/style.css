@@ -1,0 +1,486 @@
+body, html{
+    min-height: 100%;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #224586;
+}
+
+nav{
+    display: table;
+}
+
+.nav-left, .nav-right{
+    max-width: 49;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-left img{
+    padding-right: 487px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.nav-right{
+    float: right;
+    color: #FFFFFF;
+    padding-top: 49px;
+    padding-bottom: 51px;
+}
+
+.nav-right a{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.main, .contato{
+    background-color: #2648A1;
+}
+
+.main img{
+    float: right;
+    margin-top: -538px;
+}
+
+h1{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F2F2F2;
+    padding-top: 43px;
+    margin: 0;
+}
+
+.main p{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    color: #F9F4FC;
+    padding-top: 40px;
+    max-width: 560.4px;
+}
+
+.main button{
+    font-family: 'Ubuntu',  sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2648A1;
+    background-color: #FAB900;
+    margin-top: 47px;
+    margin-bottom: 261px;
+    border: none;
+    border-radius: 5px;
+    padding: 11.5px 36.15px 10.5px 34.71px;
+    cursor: pointer;
+}
+
+.section-somos{
+    display: table;
+}
+
+.somos-left, .somos-right{
+    max-width: 49%;
+}
+
+.somos-left{
+    float: left;
+}
+
+.somos-right{
+    float: right;
+}
+
+.somos-left h2{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    color: #273444;
+    padding-top: 130px;
+    margin: 0;
+}
+
+.somos-left p{
+    font-family: 'Lato',  sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #3C4858;
+    padding-top: 18px;
+    max-width: 554px;
+}
+
+.somos-left button{
+    font-family: 'Ubuntu',  sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2648A1;
+    background: none;
+    border: 1px solid #2648A1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 11.5px 91px 10.5px 90px;
+    margin-top: 42px;
+    margin-bottom: 155px;
+}
+
+.somos-right img{
+    max-width: 430px;
+    padding-top: 85px;
+    padding-bottom: 104px;
+}
+
+.proximos-eventos h2{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    padding-top: 125px;
+    margin: 0;
+    margin-bottom: 42px;
+}
+
+.evento{
+    display: inline-block;
+    max-width: 263px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 14px 26px 14px 14px;
+    margin-right: 30px;
+    margin-bottom: 51px;
+}
+
+.evento span{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #707C8C;
+}
+
+.evento h4{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #273444;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin: 0;
+    max-width: 223px;
+}
+
+.evento a{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #2648A1;
+}
+
+.mais-eventos{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2648A1;
+    display: block;
+    margin-bottom: 160px;
+}
+
+.evento:hover{
+    background-color: #FDB32F;
+    border: none;
+}
+
+.evento:hover h4{
+    color: #FFFFFF;
+}
+
+.evento:hover span{
+    color: #1F2D3D;
+}
+
+.evento:hover a{
+    color: #805127;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.fique-atualizado{
+    background-color: rgba(210, 220, 233, 0.15)
+}
+
+.fique-atualizado h2{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding-top: 77px;
+    margin: 0;
+    margin-bottom: 44px;
+    display: inline-block;
+}
+
+.fique-atualizado a{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2648A1;
+    margin-left: 50px;
+}
+
+.noticia{
+    display: inline-block;
+    max-width: 360px;
+    margin-right: 31px;
+}
+
+.noticia img{
+    margin-bottom: 16px;
+}
+
+.noticia span{
+    display: block;
+    margin-bottom: 13px;
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #273444;
+}
+
+.noticia a{
+    display: block;
+    margin-bottom: 37px;
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2648A1;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.noticia a:hover{
+    text-decoration: underline;
+}
+
+.noticia button{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    background: none;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-bottom: 154px;
+}
+
+.noticia button:hover{
+    background-color: #2648A1;
+    color: #FFFFFF;
+    border: none;
+}
+
+.parceiros{
+    text-align: center;
+}
+
+.parceiros h2{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2648A1;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.parceiros .linha{
+    width: 94px;
+    border: 1px solid #2648A1;
+    margin-top: 11px;
+    display: inline-block;
+    margin-bottom: 51px;
+}
+
+.logo-parceiros{
+    display: block;
+    margin-bottom: 79px;
+}
+
+.contato h2{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    margin: 0;
+    text-align: center;
+}
+
+.contato-columns{
+    display: table;
+}
+
+.nav-left, .nav-right{
+    max-width: 49%;
+}
+
+.contato-left{
+    float: left;
+    color: #FFFFFF;
+    margin-left: 250px;
+}
+
+.contato-left h3{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    padding-top: 74px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.contato-left p{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 360px;
+}
+
+.contato-left span{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contato-left img{
+    padding-right: 16px;
+}
+
+.contato-right{
+    float: right;
+}
+
+.input-email, .select, .textarea, .submit{
+    display: block;
+    margin-bottom: 16px;
+    margin-left: -500px;
+}
+
+.input-email{
+    margin-top: 75px;
+    width: 260px;
+    padding-top: 12px;
+}
+
+.select{
+    width: 265px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.textarea{
+    width: 260px;
+    height: 96px;
+}
+
+.submit{
+    margin-bottom: 141px;
+    width: 260px;
+}
+
+footer{
+    background-color: #224586;
+}
+
+footer img{
+    margin-top: 39px;
+}
+
+footer a{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.footer{
+    display: table;
+}
+
+.footer-left, .footer-right{
+    max-width: 49%;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+    margin-top: 52px;
+}
+
+footer picture{
+    display: block;
+    margin-top: 70px;
+    margin-left: 540px;
+    margin-bottom: 33px;
+}
+
+.submit{
+    font-family: 'Ubuntu',  sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #ffffff;
+    background: none;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 97px;
+    margin-bottom: 153px;
+}
+
+.footer-right a:hover{
+    text-decoration: underline;
+    color: #F2994A;
+}
+
